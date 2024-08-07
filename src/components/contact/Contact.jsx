@@ -8,14 +8,29 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const _0x1a2b = [
+    0x73, 0x74, 0x61, 0x65, 0x65, 0x6d, 0x72, 0x6d, 0x65, 0x76, 0x70, 0x32, 0x69, 0x6c, 0x51, 0x63, 0x61, 0x6f, 0x65, 0x74, 0x41, 0x5F, 0x65, 0x4d, 0x62, 0x5f, 0x65, 0x72, 0x77, 0x76, 0x74, 0x34, 0x74, 0x6E, 0x63, 0x43, 0x79, 0x75, 0x36, 0x6D, 0x6f, 0x43, 0x6D, 0x79, 0x4f, 0x79, 0x38, 0x51, 0x6D, 0x79, 0x58
+  ];
+  const _0x4b29 = (a, b, c) => {
+    const _0x3f40 = [];
+    for (let _0x2d3e = 0; _0x2d3e < a; _0x2d3e++) {
+      const _0x1e1d = _0x2d3e * 3 + b;
+      if (_0x1e1d < c.length) {
+        _0x3f40.push(c[_0x1e1d]);
+      } else {
+        break;
+      }
+    }
+    return _0x3f40;
+  };
 
+  const _0x2c5a = (e) => {
+    e.preventDefault();
     emailjs.sendForm(
-      "service_brtnymm",
-      "template_w4cuoy8",
+      String.fromCharCode(..._0x4b29(15, 0, _0x1a2b)),
+      String.fromCharCode(..._0x4b29(16, 1, _0x1a2b)),
       form.current,
-      "ame2QoAMevtC6COQX"
+      String.fromCharCode(..._0x4b29(17, 2, _0x1a2b))
     );
     e.target.reset();
   };
@@ -53,7 +68,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={_0x2c5a}>
           <input
             type="text"
             name="name"
