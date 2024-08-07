@@ -95,13 +95,13 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Proficiency in server-side programming languages such as Java, PHP to develop robust and scalable backend solutions.
+                Proficiency  in server-side programming languages such as Java, PHP to develop robust and scalable backend solutions.
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Expertise in designing and implementing efficient database structures, utilizing technologies like SQL or NoSQL databases (e.g., MySQL, MongoDB) to store and manage data.
+                Expertise  in designing and implementing efficient database structures, utilizing technologies like SQL or NoSQL databases (e.g., MySQL, MongoDB) to store and manage data.
               </p>
             </li>
             <li>
